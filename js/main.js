@@ -56,6 +56,7 @@ var d = new Date();
 alert(d);
 */
 
+/* AULA 04
 function soma(n1, n2) {
     return n1 + n2;
 }
@@ -79,3 +80,36 @@ console.log(validaIdade(idade));
 
 alert(soma(5, 10));
 alert(setReplace("João Pedro", "Pedro", "Paulo"));
+*/
+
+
+function clicou() {
+    alert("Obrigado por clicar");
+}
+
+function clicar() {
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
+}
+
+function redirecionar() {
+    window.open("https://www.google.com.br/")
+}
+
+function trocar(elemento) {
+    // document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    // alert("trocar texto")
+    elemento.innerHTML = "Obrigado por passar o mouse";
+}
+
+function voltar(elemento) {
+    // document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function carregar() {
+    alert("página carregada");
+}
+
+function mudar(elemento) {
+    console.log(elemento.value)
+}
